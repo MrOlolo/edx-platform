@@ -45,6 +45,7 @@ iwIDAQAB
         "S3_BUCKET": "fake-bucket",
     },
     "DAYS_GOOD_FOR": 10,
+    "CERT_VERIFICATION_PATH": False,
 }
 
 
