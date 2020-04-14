@@ -115,6 +115,8 @@ class AccessRole(six.with_metaclass(ABCMeta, object)):
         """
         return User.objects.none()
 
+class TestClass(AccessRole):
+    pass
 
 class GlobalStaff(AccessRole):
     """
