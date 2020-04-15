@@ -57,6 +57,7 @@ def update_course_updates(location, update, passed_id=None, user=None):
         course_updates = modulestore().create_item(user.id, location.course_key, location.block_type, location.block_id)
 
     course_update_items = list(reversed(get_course_update_items(course_updates)))
+    course_update_dict = None
 
     if passed_id is not None:
         passed_index = _get_index(passed_id)
@@ -67,6 +68,7 @@ def update_course_updates(location, update, passed_id=None, user=None):
                 course_update_dict = course_update_item
                 course_update_item["date"] = update["date"]
                 course_update_item["content"] = update["content"]
+                break
         if course_update_dict is None:
             return HttpResponseBadRequest(_("Invalid course update id."))
     else:
