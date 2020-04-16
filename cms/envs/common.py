@@ -167,9 +167,10 @@ from openedx.core.release import doc_version
 # Dummy secret key for dev/test
 SECRET_KEY = 'dev key'
 
-STUDIO_NAME = _("Your Platform Studio")
+STUDIO_NAME = _("Robbo")
 STUDIO_SHORT_NAME = _("Studio")
 FEATURES = {
+    'DISABLE_STUDIO_SSO_OVER_LMS': True,
     'GITHUB_PUSH': False,
 
     # for consistency in user-experience, keep the value of the following 3 settings
@@ -437,7 +438,7 @@ AUTHENTICATION_BACKENDS = [
 ]
 
 LMS_BASE = None
-LMS_ROOT_URL = "http://localhost:8000"
+LMS_ROOT_URL = "localhost:8000"
 LMS_INTERNAL_ROOT_URL = LMS_ROOT_URL
 LMS_ENROLLMENT_API_PATH = "/api/enrollment/v1/"
 ENTERPRISE_API_URL = LMS_INTERNAL_ROOT_URL + '/enterprise/api/v1/'
