@@ -298,7 +298,9 @@ class CourseUpdateTest(CourseTestCase):
         course_update_items = list(reversed(get_course_update_items(course_updates)))
 
         # Delete the course update with id 1
-        course_update_items = [course_update_item for course_update_item in course_update_items if not 1 == course_update_item.get('id')]
+        course_update_items = [
+            course_update_item for course_update_item in course_update_items if not 1 == course_update_item.get('id')
+        ]
 
         course_updates.items = course_update_items
         course_updates.data = ""
