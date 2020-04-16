@@ -319,4 +319,3 @@ class CourseUpdateTest(CourseTestCase):
         course_updates = modulestore().get_item(updates_location)
         del course_updates.items[0]["status"]
         self.assertEqual(course_updates.items, [{u'date': update_date, u'content': update_content, u'id': 2}])
-
