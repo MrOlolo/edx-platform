@@ -341,7 +341,7 @@ FEATURES = {
     'ENABLE_LTI_PROVIDER': False,
 
     # Show the language selector in the header
-    'SHOW_HEADER_LANGUAGE_SELECTOR': False,
+    'SHOW_HEADER_LANGUAGE_SELECTOR': True,
 
     # At edX it's safe to assume that English transcripts are always available
     # This is not the case for all installations.
@@ -349,7 +349,7 @@ FEATURES = {
     'FALLBACK_TO_ENGLISH_TRANSCRIPTS': True,
 
     # Show the language selector in the footer
-    'SHOW_FOOTER_LANGUAGE_SELECTOR': False,
+    'SHOW_FOOTER_LANGUAGE_SELECTOR': True,
 
     # Write new CSM history to the extended table.
     # This will eventually default to True and may be

@@ -1,33 +1,33 @@
 # #-#-#-#-#  djangojs-partial.po (0.1a)  #-#-#-#-#
 # edX translation file.
-# Copyright (C) 2019 EdX
+# Copyright (C) 2020 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
-# EdX Team <info@edx.org>, 2019.
+# EdX Team <info@edx.org>, 2020.
 #
 # #-#-#-#-#  djangojs-studio.po (0.1a)  #-#-#-#-#
 # edX translation file.
-# Copyright (C) 2019 EdX
+# Copyright (C) 2020 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
-# EdX Team <info@edx.org>, 2019.
+# EdX Team <info@edx.org>, 2020.
 #
 # #-#-#-#-#  underscore.po (0.1a)  #-#-#-#-#
 # edX translation file
-# Copyright (C) 2019 edX
+# Copyright (C) 2020 edX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
-# EdX Team <info@edx.org>, 2019.
+# EdX Team <info@edx.org>, 2020.
 #
 # #-#-#-#-#  underscore-studio.po (0.1a)  #-#-#-#-#
 # edX translation file
-# Copyright (C) 2019 edX
+# Copyright (C) 2020 edX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
-# EdX Team <info@edx.org>, 2019.
+# EdX Team <info@edx.org>, 2020.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2019-06-03 18:56+0000\n"
-"PO-Revision-Date: 2019-06-03 19:01:39.336766\n"
+"POT-Creation-Date: 2020-04-23 15:55+0000\n"
+"PO-Revision-Date: 2020-04-23 15:56:06.321341\n"
 "Last-Translator: \n"
 "Language-Team: openedx-translation <openedx-translation@googlegroups.com>\n"
 "Language: en\n"
@@ -1021,7 +1021,6 @@ msgstr ""
 #. 3, 10).;
 #: common/lib/xmodule/xmodule/js/src/capa/display.js
 #: common/static/bundles/CapaModule.js
-#: common/static/bundles/ProblemBlockPreview.js
 msgid "%(num_points)s point possible (graded, results hidden)"
 msgid_plural "%(num_points)s points possible (graded, results hidden)"
 msgstr[0] ""
@@ -1031,7 +1030,6 @@ msgstr[1] ""
 #. 3, 10).;
 #: common/lib/xmodule/xmodule/js/src/capa/display.js
 #: common/static/bundles/CapaModule.js
-#: common/static/bundles/ProblemBlockPreview.js
 msgid "%(num_points)s point possible (ungraded, results hidden)"
 msgid_plural "%(num_points)s points possible (ungraded, results hidden)"
 msgstr[0] ""
@@ -1041,7 +1039,6 @@ msgstr[1] ""
 #. 3, 10).;
 #: common/lib/xmodule/xmodule/js/src/capa/display.js
 #: common/static/bundles/CapaModule.js
-#: common/static/bundles/ProblemBlockPreview.js
 msgid "%(num_points)s point possible (graded)"
 msgid_plural "%(num_points)s points possible (graded)"
 msgstr[0] ""
@@ -1051,7 +1048,6 @@ msgstr[1] ""
 #. 3, 10).;
 #: common/lib/xmodule/xmodule/js/src/capa/display.js
 #: common/static/bundles/CapaModule.js
-#: common/static/bundles/ProblemBlockPreview.js
 msgid "%(num_points)s point possible (ungraded)"
 msgid_plural "%(num_points)s points possible (ungraded)"
 msgstr[0] ""
@@ -1063,7 +1059,6 @@ msgstr[1] ""
 #. points (example: 0/1 point; 1/2 points);
 #: common/lib/xmodule/xmodule/js/src/capa/display.js
 #: common/static/bundles/CapaModule.js
-#: common/static/bundles/ProblemBlockPreview.js
 msgid "%(earned)s/%(possible)s point (graded)"
 msgid_plural "%(earned)s/%(possible)s points (graded)"
 msgstr[0] ""
@@ -1075,7 +1070,6 @@ msgstr[1] ""
 #. points (example: 0/1 point; 1/2 points);
 #: common/lib/xmodule/xmodule/js/src/capa/display.js
 #: common/static/bundles/CapaModule.js
-#: common/static/bundles/ProblemBlockPreview.js
 msgid "%(earned)s/%(possible)s point (ungraded)"
 msgid_plural "%(earned)s/%(possible)s points (ungraded)"
 msgstr[0] ""
@@ -1083,19 +1077,16 @@ msgstr[1] ""
 
 #: common/lib/xmodule/xmodule/js/src/capa/display.js
 #: common/static/bundles/CapaModule.js
-#: common/static/bundles/ProblemBlockPreview.js
 msgid "The grading process is still running. Refresh the page to see updates."
 msgstr ""
 
 #: common/lib/xmodule/xmodule/js/src/capa/display.js
 #: common/static/bundles/CapaModule.js
-#: common/static/bundles/ProblemBlockPreview.js
 msgid "Could not grade your answer. The submission was aborted."
 msgstr ""
 
 #: common/lib/xmodule/xmodule/js/src/capa/display.js
 #: common/static/bundles/CapaModule.js
-#: common/static/bundles/ProblemBlockPreview.js
 msgid ""
 "Submission aborted! Sorry, your browser does not support file uploads. If "
 "you can, please use Chrome or Safari which have been verified to support "
@@ -1104,25 +1095,21 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/js/src/capa/display.js
 #: common/static/bundles/CapaModule.js
-#: common/static/bundles/ProblemBlockPreview.js
 msgid "You submitted {filename}; only {allowedFiles} are allowed."
 msgstr ""
 
 #: common/lib/xmodule/xmodule/js/src/capa/display.js
 #: common/static/bundles/CapaModule.js
-#: common/static/bundles/ProblemBlockPreview.js
 msgid "Your file {filename} is too large (max size: {maxSize}MB)."
 msgstr ""
 
 #: common/lib/xmodule/xmodule/js/src/capa/display.js
 #: common/static/bundles/CapaModule.js
-#: common/static/bundles/ProblemBlockPreview.js
 msgid "You did not submit the required files: {requiredFiles}."
 msgstr ""
 
 #: common/lib/xmodule/xmodule/js/src/capa/display.js
 #: common/static/bundles/CapaModule.js
-#: common/static/bundles/ProblemBlockPreview.js
 msgid "You did not select any files to submit."
 msgstr ""
 
@@ -1130,19 +1117,16 @@ msgstr ""
 #. associated status.;
 #: common/lib/xmodule/xmodule/js/src/capa/display.js
 #: common/static/bundles/CapaModule.js
-#: common/static/bundles/ProblemBlockPreview.js
 msgid "{label}: {status}"
 msgstr ""
 
 #: common/lib/xmodule/xmodule/js/src/capa/display.js
 #: common/static/bundles/CapaModule.js
-#: common/static/bundles/ProblemBlockPreview.js
 msgid "This problem has been reset."
 msgstr ""
 
 #: common/lib/xmodule/xmodule/js/src/capa/display.js
 #: common/static/bundles/CapaModule.js
-#: common/static/bundles/ProblemBlockPreview.js
 msgid "unsubmitted"
 msgstr ""
 
@@ -1754,9 +1738,7 @@ msgstr ""
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 #: common/lib/xmodule/xmodule/js/src/problem/edit.js
-#: common/static/bundles/CapaDescriptor.js
-#: common/static/bundles/ProblemBlockStudio.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/CapaDescriptor.js common/static/bundles/commons.js
 msgid "Header"
 msgstr ""
 
@@ -2598,31 +2580,26 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/js/src/problem/edit.js
 #: common/static/bundles/CapaDescriptor.js
-#: common/static/bundles/ProblemBlockStudio.js
 msgid "incorrect"
 msgstr ""
 
 #: common/lib/xmodule/xmodule/js/src/problem/edit.js
 #: common/static/bundles/CapaDescriptor.js
-#: common/static/bundles/ProblemBlockStudio.js
 msgid "correct"
 msgstr ""
 
 #: common/lib/xmodule/xmodule/js/src/problem/edit.js
 #: common/static/bundles/CapaDescriptor.js
-#: common/static/bundles/ProblemBlockStudio.js
 msgid "answer"
 msgstr ""
 
 #: common/lib/xmodule/xmodule/js/src/problem/edit.js
 #: common/static/bundles/CapaDescriptor.js
-#: common/static/bundles/ProblemBlockStudio.js
 msgid "Short explanation"
 msgstr ""
 
 #: common/lib/xmodule/xmodule/js/src/problem/edit.js
 #: common/static/bundles/CapaDescriptor.js
-#: common/static/bundles/ProblemBlockStudio.js
 msgid ""
 "If you use the Advanced Editor, this problem will be converted to XML and you will not be able to return to the Simple Editor Interface.\n"
 "\n"
@@ -2631,7 +2608,6 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/js/src/problem/edit.js
 #: common/static/bundles/CapaDescriptor.js
-#: common/static/bundles/ProblemBlockStudio.js
 msgid "Explanation"
 msgstr ""
 
@@ -5614,9 +5590,9 @@ msgid ""
 "address is associated with your {platform_name} account, we will send a "
 "message with password reset instructions to this email "
 "address.{paragraphEnd}{paragraphStart}If you do not receive a password reset"
-" message, verify that you entered the correct email address, or check your "
-"spam folder.{paragraphEnd}{paragraphStart}If you need further assistance, "
-"{anchorStart}contact technical support{anchorEnd}.{paragraphEnd}"
+" message after 1 minute, verify that you entered the correct email address, "
+"or check your spam folder.{paragraphEnd}{paragraphStart}If you need further "
+"assistance, {anchorStart}contact technical support{anchorEnd}.{paragraphEnd}"
 msgstr ""
 
 #: lms/static/js/student_account/views/LoginView.js
@@ -9372,18 +9348,16 @@ msgid ""
 msgstr ""
 
 #: openedx/features/learner_profile/static/learner_profile/templates/share_modal.underscore
-#, python-format
 msgid ""
-"Create a %(link_start)sMozilla Backpack%(link_end)s account, or log in to "
-"your existing account"
+"Create a {link_start}Mozilla Backpack{link_end} account, or log in to your "
+"existing account"
 msgstr ""
 
 #: openedx/features/learner_profile/static/learner_profile/templates/share_modal.underscore
-#, python-format
 msgid ""
-"%(download_link_start)sDownload this image (right-click or option-click, "
-"save as)%(link_end)s and then %(upload_link_start)supload%(link_end)s it to "
-"your backpack.</li>"
+"{download_link_start}Download this image (right-click or option-click, save "
+"as){link_end} and then {upload_link_start}upload{link_end} it to your "
+"backpack."
 msgstr ""
 
 #: cms/templates/js/access-editor.underscore

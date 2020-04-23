@@ -42,17 +42,17 @@ locales:
     # - gl  # Galician
     # - gu  # Gujarati
     - he  # Hebrew
-    - hi  # Hindi
+    # - hi  # Hindi
     # - hr  # Croatian
     # - hu  # Hungarian
     # - hy_AM  # Armenian (Armenia)
     # - id  # Indonesian
     # - it_IT  # Italian (Italy)
-    # - ja_JP  # Japanese (Japan)
+    - ja_JP  # Japanese (Japan)
     # - kk_KZ  # Kazakh (Kazakhstan)
     # - km_KH  # Khmer (Cambodia)
     # - kn  # Kannada
-    - ko_KR  # Korean (Korea)
+    # - ko_KR  # Korean (Korea)
     # - lt_LT  # Lithuanian (Lithuania)
     # - ml  # Malayalam
     # - mn  # Mongolian

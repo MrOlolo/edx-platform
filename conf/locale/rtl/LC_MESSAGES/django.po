@@ -1,39 +1,39 @@
 # #-#-#-#-#  django-partial.po (0.1a)  #-#-#-#-#
 # edX translation file.
-# Copyright (C) 2019 EdX
+# Copyright (C) 2020 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
-# EdX Team <info@edx.org>, 2019.
+# EdX Team <info@edx.org>, 2020.
 #
 # #-#-#-#-#  django-studio.po (0.1a)  #-#-#-#-#
 # edX translation file.
-# Copyright (C) 2019 EdX
+# Copyright (C) 2020 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
-# EdX Team <info@edx.org>, 2019.
+# EdX Team <info@edx.org>, 2020.
 #
 # #-#-#-#-#  mako.po (0.1a)  #-#-#-#-#
 # edX translation file
-# Copyright (C) 2019 edX
+# Copyright (C) 2020 edX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
-# EdX Team <info@edx.org>, 2019.
+# EdX Team <info@edx.org>, 2020.
 #
 # #-#-#-#-#  mako-studio.po (0.1a)  #-#-#-#-#
 # edX translation file
-# Copyright (C) 2019 edX
+# Copyright (C) 2020 edX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
-# EdX Team <info@edx.org>, 2019.
+# EdX Team <info@edx.org>, 2020.
 #
 # #-#-#-#-#  wiki.po (0.1a)  #-#-#-#-#
 # edX translation file
-# Copyright (C) 2019 edX
+# Copyright (C) 2020 edX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
-# EdX Team <info@edx.org>, 2019.
+# EdX Team <info@edx.org>, 2020.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2019-06-03 19:01+0000\n"
-"PO-Revision-Date: 2019-06-03 19:01:38.490808\n"
+"POT-Creation-Date: 2020-04-23 15:56+0000\n"
+"PO-Revision-Date: 2020-04-23 15:56:05.730276\n"
 "Last-Translator: \n"
 "Language-Team: openedx-translation <openedx-translation@googlegroups.com>\n"
 "Language: rtl\n"
@@ -919,6 +919,12 @@ msgstr ""
 "{html_start}سعذذثسس! غخع اشدث شذفهدشفثي غخعق شذذخعرف.{html_end}غخع صهمم رخص "
 "قثذثهدث ثوشهم عحيشفثس شري شمثقفس بقخو عس قثمشفثي فخ فاث ذخعقسثس غخع شقث "
 "ثرقخممثي هر. سهلر هر فخ ذخرفهرعث."
+
+#: common/djangoapps/student/views/management.py
+msgid ""
+"Your previous request is in progress, please try again in a few moments."
+msgstr ""
+"غخعق حقثدهخعس قثضعثسف هس هر حقخلقثسس, حمثشسث فقغ شلشهر هر ش بثص وخوثرفس."
 
 #: common/djangoapps/student/views/management.py
 msgid "Some error occured during password change. Please try again"
@@ -3911,12 +3917,12 @@ msgstr "مفه هي"
 msgid ""
 "Enter the LTI ID for the external LTI provider.  This value must be the same"
 " LTI ID that you entered in the LTI Passports setting on the Advanced "
-"Settings page.<br />See {docs_anchor_open}the edX LTI "
+"Settings page.{break_tag}See {docs_anchor_open}the edX LTI "
 "documentation{anchor_close} for more details on this setting."
 msgstr ""
 "ثرفثق فاث مفه هي بخق فاث ثطفثقرشم مفه حقخدهيثق.  فاهس دشمعث وعسف زث فاث سشوث"
 " مفه هي فاشف غخع ثرفثقثي هر فاث مفه حشسسحخقفس سثففهرل خر فاث شيدشرذثي "
-"سثففهرلس حشلث.<br />سثث {docs_anchor_open}فاث ثيط مفه "
+"سثففهرلس حشلث.{break_tag}سثث {docs_anchor_open}فاث ثيط مفه "
 "يخذعوثرفشفهخر{anchor_close} بخق وخقث يثفشهمس خر فاهس سثففهرل."
 
 #: common/lib/xmodule/xmodule/lti_module.py
@@ -3927,12 +3933,12 @@ msgstr "مفه عقم"
 #, python-brace-format
 msgid ""
 "Enter the URL of the external tool that this component launches. This "
-"setting is only used when Hide External Tool is set to False.<br />See "
+"setting is only used when Hide External Tool is set to False.{break_tag}See "
 "{docs_anchor_open}the edX LTI documentation{anchor_close} for more details "
 "on this setting."
 msgstr ""
 "ثرفثق فاث عقم خب فاث ثطفثقرشم فخخم فاشف فاهس ذخوحخرثرف مشعرذاثس. فاهس "
-"سثففهرل هس خرمغ عسثي صاثر اهيث ثطفثقرشم فخخم هس سثف فخ بشمسث.<br />سثث "
+"سثففهرل هس خرمغ عسثي صاثر اهيث ثطفثقرشم فخخم هس سثف فخ بشمسث.{break_tag}سثث "
 "{docs_anchor_open}فاث ثيط مفه يخذعوثرفشفهخر{anchor_close} بخق وخقث يثفشهمس "
 "خر فاهس سثففهرل."
 
@@ -3944,14 +3950,14 @@ msgstr "ذعسفخو حشقشوثفثقس"
 #, python-brace-format
 msgid ""
 "Add the key/value pair for any custom parameters, such as the page your "
-"e-book should open to or the background color for this component.<br />See "
-"{docs_anchor_open}the edX LTI documentation{anchor_close} for more details "
-"on this setting."
+"e-book should open to or the background color for this "
+"component.{break_tag}See {docs_anchor_open}the edX LTI "
+"documentation{anchor_close} for more details on this setting."
 msgstr ""
 "شيي فاث نثغ/دشمعث حشهق بخق شرغ ذعسفخو حشقشوثفثقس, سعذا شس فاث حشلث غخعق "
-"ث-زخخن ساخعمي خحثر فخ خق فاث زشذنلقخعري ذخمخق بخق فاهس ذخوحخرثرف.<br />سثث "
-"{docs_anchor_open}فاث ثيط مفه يخذعوثرفشفهخر{anchor_close} بخق وخقث يثفشهمس "
-"خر فاهس سثففهرل."
+"ث-زخخن ساخعمي خحثر فخ خق فاث زشذنلقخعري ذخمخق بخق فاهس "
+"ذخوحخرثرف.{break_tag}سثث {docs_anchor_open}فاث ثيط مفه "
+"يخذعوثرفشفهخر{anchor_close} بخق وخقث يثفشهمس خر فاهس سثففهرل."
 
 #: common/lib/xmodule/xmodule/lti_module.py
 msgid "Open in New Page"
@@ -13872,12 +13878,12 @@ msgstr "شر ثققخق خذذعققثي صاثر سهلرهرل غخع هر ف�
 #: lms/templates/login.html
 msgid ""
 "Please provide the following information to log into your {platform_name} "
-"account. Required fields are noted by <strong class=\"indicator\">bold text "
-"and an asterisk (*)</strong>."
+"account. Required fields are noted by {strong_start}bold text and an "
+"asterisk (*){strong_end}."
 msgstr ""
 "حمثشسث حقخدهيث فاث بخممخصهرل هربخقوشفهخر فخ مخل هرفخ غخعق {platform_name} "
-"شذذخعرف. قثضعهقثي بهثميس شقث رخفثي زغ <strong class=\"indicator\">زخمي فثطف "
-"شري شر شسفثقهسن (*)</strong>."
+"شذذخعرف. قثضعهقثي بهثميس شقث رخفثي زغ {strong_start}زخمي فثطف شري شر "
+"شسفثقهسن (*){strong_end}."
 
 #: lms/templates/login.html
 msgid "Account Preferences"
@@ -14120,9 +14126,8 @@ msgstr "سهلر عح صهفا {provider_name}"
 msgid "Create your own {platform_name} account below"
 msgstr "ذقثشفث غخعق خصر {platform_name} شذذخعرف زثمخص"
 
-#: lms/templates/register-form.html lms/templates/register-shib.html
+#: lms/templates/register-form.html
 #: themes/stanford-style/lms/templates/register-form.html
-#: themes/stanford-style/lms/templates/register-shib.html
 msgid ""
 "Required fields are noted by <strong class=\"indicator\">bold text and an "
 "asterisk (*)</strong>."
@@ -14242,6 +14247,14 @@ msgstr "عحيشفث وغ {platform_name} شذذخعرف"
 #: themes/stanford-style/lms/templates/register-shib.html
 msgid "Welcome {username}!  Please set your preferences below"
 msgstr "صثمذخوث {username}!  حمثشسث سثف غخعق حقثبثقثرذثس زثمخص"
+
+#: lms/templates/register-shib.html
+msgid ""
+"Required fields are noted by {strong_start}bold text and an asterisk "
+"(*){strong_end}."
+msgstr ""
+"قثضعهقثي بهثميس شقث رخفثي زغ {strong_start}زخمي فثطف شري شر شسفثقهسن "
+"(*){strong_end}."
 
 #: lms/templates/register-shib.html lms/templates/signup_modal.html
 #: themes/stanford-style/lms/templates/register-shib.html
@@ -14397,8 +14410,8 @@ msgid "e.g. Your Name (for certificates)"
 msgstr "ث.ل. غخعق رشوث (بخق ذثقفهبهذشفثس)"
 
 #: lms/templates/signup_modal.html
-msgid "<i>Welcome</i> {name}"
-msgstr "<i>صثمذخوث</i> {name}"
+msgid "{italic_start}Welcome{italic_end} {name}"
+msgstr "{italic_start}صثمذخوث{italic_end} {name}"
 
 #: lms/templates/signup_modal.html
 msgid "Full Name *"
@@ -17408,10 +17421,10 @@ msgstr ""
 #: lms/templates/dashboard/_dashboard_credit_info.html
 msgid ""
 "You have completed this course and are eligible to purchase course credit. "
-"Select <strong>Get Credit</strong> to get started."
+"Select {strong_start}Get Credit{strong_end} to get started."
 msgstr ""
 "غخع اشدث ذخوحمثفثي فاهس ذخعقسث شري شقث ثمهلهزمث فخ حعقذاشسث ذخعقسث ذقثيهف. "
-"سثمثذف <strong>لثف ذقثيهف</strong> فخ لثف سفشقفثي."
+"سثمثذف {strong_start}لثف ذقثيهف{strong_end} فخ لثف سفشقفثي."
 
 #: lms/templates/dashboard/_dashboard_credit_info.html
 msgid "You are now eligible for credit from {provider}. Congratulations!"
@@ -17427,12 +17440,12 @@ msgstr "لثف ذقثيهف"
 #: lms/templates/dashboard/_dashboard_credit_info.html
 msgid ""
 "Thank you for your payment. To receive course credit, you must now request "
-"credit at the {link_to_provider_site} website. Select <b>Request Credit</b> "
-"to get started."
+"credit at the {link_to_provider_site} website. Select {break_start}Request "
+"Credit{break_end} to get started."
 msgstr ""
 "فاشرن غخع بخق غخعق حشغوثرف. فخ قثذثهدث ذخعقسث ذقثيهف, غخع وعسف رخص قثضعثسف "
-"ذقثيهف شف فاث {link_to_provider_site} صثزسهفث. سثمثذف <b>قثضعثسف ذقثيهف</b> "
-"فخ لثف سفشقفثي."
+"ذقثيهف شف فاث {link_to_provider_site} صثزسهفث. سثمثذف {break_start}قثضعثسف "
+"ذقثيهف{break_end} فخ لثف سفشقفثي."
 
 #: lms/templates/dashboard/_dashboard_credit_info.html
 msgid "Request Credit"
@@ -17456,13 +17469,13 @@ msgstr "دهثص يثفشهمس"
 #. provider.
 #: lms/templates/dashboard/_dashboard_credit_info.html
 msgid ""
-"<b>Congratulations!</b> {provider_name} has approved your request for course"
-" credit. To see your course credit, visit the {link_to_provider_site} "
-"website."
+"{break_start}Congratulations!{break_end} {provider_name} has approved your "
+"request for course credit. To see your course credit, visit the "
+"{link_to_provider_site} website."
 msgstr ""
-"<b>ذخرلقشفعمشفهخرس!</b> {provider_name} اشس شححقخدثي غخعق قثضعثسف بخق ذخعقسث"
-" ذقثيهف. فخ سثث غخعق ذخعقسث ذقثيهف, دهسهف فاث {link_to_provider_site} "
-"صثزسهفث."
+"{break_start}ذخرلقشفعمشفهخرس!{break_end} {provider_name} اشس شححقخدثي غخعق "
+"قثضعثسف بخق ذخعقسث ذقثيهف. فخ سثث غخعق ذخعقسث ذقثيهف, دهسهف فاث "
+"{link_to_provider_site} صثزسهفث."
 
 #: lms/templates/dashboard/_dashboard_credit_info.html
 msgid "View Credit"
@@ -21894,6 +21907,14 @@ msgstr "ذخحغقهلاف {year}. شمم قهلافس قثسثقدثي."
 msgid "For anyone, anywhere, anytime"
 msgstr "بخق شرغخرث, شرغصاثقث, شرغفهوث"
 
+#: themes/stanford-style/lms/templates/register-shib.html
+msgid ""
+"Required fields are noted by {strong_indicator}bold text and an asterisk "
+"(*).{strong_close}"
+msgstr ""
+"قثضعهقثي بهثميس شقث رخفثي زغ {strong_indicator}زخمي فثطف شري شر شسفثقهسن "
+"(*).{strong_close}"
+
 #: themes/stanford-style/lms/templates/register-sidebar.html
 msgid ""
 "You will receive an activation email.  You must click on the activation link"
@@ -22170,9 +22191,10 @@ msgstr ""
 msgid "Learn more about certificates"
 msgstr "مثشقر وخقث شزخعف ذثقفهبهذشفثس"
 
-#: cms/templates/certificates.html cms/templates/settings_graders.html
-msgid "Details &amp; Schedule"
-msgstr "يثفشهمس &amp; سذاثيعمث"
+#: cms/templates/certificates.html cms/templates/group_configurations.html
+#: cms/templates/settings_advanced.html
+msgid "Details & Schedule"
+msgstr "يثفشهمس & سذاثيعمث"
 
 #: cms/templates/certificates.html cms/templates/group_configurations.html
 #: cms/templates/settings.html cms/templates/settings_advanced.html
@@ -23256,11 +23278,6 @@ msgstr ""
 "{em_start}ثيهف{em_end}. غخع ذشر يثمثفث ش لقخعح ذخربهلعقشفهخر خرمغ هب هف هس "
 "رخف هر عسث هر شر ثطحثقهوثرف. فخ يثمثفث ش ذخربهلعقشفهخر, اخدثق خدثق هفس زخط "
 "شري ذمهذن فاث يثمثفث هذخر."
-
-#: cms/templates/group_configurations.html
-#: cms/templates/settings_advanced.html
-msgid "Details & Schedule"
-msgstr "يثفشهمس & سذاثيعمث"
 
 #: cms/templates/howitworks.html
 msgid "Welcome"
@@ -25145,6 +25162,10 @@ msgstr ""
 "غخع ذشر شمسخ ذقثشفث شسسهلروثرف فغحثس, سعذا شس اخوثصخقن, مشزس, ضعهظظثس, شري "
 "ثطشوس, شري سحثذهبغ اخص وعذا خب ش سفعيثرف'س لقشيث ثشذا شسسهلروثرف فغحث هس "
 "صخقفا."
+
+#: cms/templates/settings_graders.html
+msgid "Details &amp; Schedule"
+msgstr "يثفشهمس &amp; سذاثيعمث"
 
 #: cms/templates/studio_xblock_wrapper.html
 msgid "Expand or Collapse"

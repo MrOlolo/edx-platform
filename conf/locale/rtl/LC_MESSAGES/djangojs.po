@@ -1,33 +1,33 @@
 # #-#-#-#-#  djangojs-partial.po (0.1a)  #-#-#-#-#
 # edX translation file.
-# Copyright (C) 2019 EdX
+# Copyright (C) 2020 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
-# EdX Team <info@edx.org>, 2019.
+# EdX Team <info@edx.org>, 2020.
 #
 # #-#-#-#-#  djangojs-studio.po (0.1a)  #-#-#-#-#
 # edX translation file.
-# Copyright (C) 2019 EdX
+# Copyright (C) 2020 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
-# EdX Team <info@edx.org>, 2019.
+# EdX Team <info@edx.org>, 2020.
 #
 # #-#-#-#-#  underscore.po (0.1a)  #-#-#-#-#
 # edX translation file
-# Copyright (C) 2019 edX
+# Copyright (C) 2020 edX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
-# EdX Team <info@edx.org>, 2019.
+# EdX Team <info@edx.org>, 2020.
 #
 # #-#-#-#-#  underscore-studio.po (0.1a)  #-#-#-#-#
 # edX translation file
-# Copyright (C) 2019 edX
+# Copyright (C) 2020 edX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
-# EdX Team <info@edx.org>, 2019.
+# EdX Team <info@edx.org>, 2020.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2019-06-03 18:56+0000\n"
-"PO-Revision-Date: 2019-06-03 19:01:39.336766\n"
+"POT-Creation-Date: 2020-04-23 15:55+0000\n"
+"PO-Revision-Date: 2020-04-23 15:56:06.321341\n"
 "Last-Translator: \n"
 "Language-Team: openedx-translation <openedx-translation@googlegroups.com>\n"
 "Language: rtl\n"
@@ -1061,7 +1061,6 @@ msgstr "قثحمغ فخ شررخفشفهخر"
 #. 3, 10).;
 #: common/lib/xmodule/xmodule/js/src/capa/display.js
 #: common/static/bundles/CapaModule.js
-#: common/static/bundles/ProblemBlockPreview.js
 msgid "%(num_points)s point possible (graded, results hidden)"
 msgid_plural "%(num_points)s points possible (graded, results hidden)"
 msgstr[0] "%(num_points)s حخهرف حخسسهزمث (لقشيثي, قثسعمفس اهييثر)"
@@ -1071,7 +1070,6 @@ msgstr[1] "%(num_points)s حخهرفس حخسسهزمث (لقشيثي, قثسع�
 #. 3, 10).;
 #: common/lib/xmodule/xmodule/js/src/capa/display.js
 #: common/static/bundles/CapaModule.js
-#: common/static/bundles/ProblemBlockPreview.js
 msgid "%(num_points)s point possible (ungraded, results hidden)"
 msgid_plural "%(num_points)s points possible (ungraded, results hidden)"
 msgstr[0] "%(num_points)s حخهرف حخسسهزمث (عرلقشيثي, قثسعمفس اهييثر)"
@@ -1081,7 +1079,6 @@ msgstr[1] "%(num_points)s حخهرفس حخسسهزمث (عرلقشيثي, قث�
 #. 3, 10).;
 #: common/lib/xmodule/xmodule/js/src/capa/display.js
 #: common/static/bundles/CapaModule.js
-#: common/static/bundles/ProblemBlockPreview.js
 msgid "%(num_points)s point possible (graded)"
 msgid_plural "%(num_points)s points possible (graded)"
 msgstr[0] "%(num_points)s حخهرف حخسسهزمث (لقشيثي)"
@@ -1091,7 +1088,6 @@ msgstr[1] "%(num_points)s حخهرفس حخسسهزمث (لقشيثي)"
 #. 3, 10).;
 #: common/lib/xmodule/xmodule/js/src/capa/display.js
 #: common/static/bundles/CapaModule.js
-#: common/static/bundles/ProblemBlockPreview.js
 msgid "%(num_points)s point possible (ungraded)"
 msgid_plural "%(num_points)s points possible (ungraded)"
 msgstr[0] "%(num_points)s حخهرف حخسسهزمث (عرلقشيثي)"
@@ -1103,7 +1099,6 @@ msgstr[1] "%(num_points)s حخهرفس حخسسهزمث (عرلقشيثي)"
 #. points (example: 0/1 point; 1/2 points);
 #: common/lib/xmodule/xmodule/js/src/capa/display.js
 #: common/static/bundles/CapaModule.js
-#: common/static/bundles/ProblemBlockPreview.js
 msgid "%(earned)s/%(possible)s point (graded)"
 msgid_plural "%(earned)s/%(possible)s points (graded)"
 msgstr[0] "%(earned)s/%(possible)s حخهرف (لقشيثي)"
@@ -1115,7 +1110,6 @@ msgstr[1] "%(earned)s/%(possible)s حخهرفس (لقشيثي)"
 #. points (example: 0/1 point; 1/2 points);
 #: common/lib/xmodule/xmodule/js/src/capa/display.js
 #: common/static/bundles/CapaModule.js
-#: common/static/bundles/ProblemBlockPreview.js
 msgid "%(earned)s/%(possible)s point (ungraded)"
 msgid_plural "%(earned)s/%(possible)s points (ungraded)"
 msgstr[0] "%(earned)s/%(possible)s حخهرف (عرلقشيثي)"
@@ -1123,20 +1117,17 @@ msgstr[1] "%(earned)s/%(possible)s حخهرفس (عرلقشيثي)"
 
 #: common/lib/xmodule/xmodule/js/src/capa/display.js
 #: common/static/bundles/CapaModule.js
-#: common/static/bundles/ProblemBlockPreview.js
 msgid "The grading process is still running. Refresh the page to see updates."
 msgstr ""
 "فاث لقشيهرل حقخذثسس هس سفهمم قعررهرل. قثبقثسا فاث حشلث فخ سثث عحيشفثس."
 
 #: common/lib/xmodule/xmodule/js/src/capa/display.js
 #: common/static/bundles/CapaModule.js
-#: common/static/bundles/ProblemBlockPreview.js
 msgid "Could not grade your answer. The submission was aborted."
 msgstr "ذخعمي رخف لقشيث غخعق شرسصثق. فاث سعزوهسسهخر صشس شزخقفثي."
 
 #: common/lib/xmodule/xmodule/js/src/capa/display.js
 #: common/static/bundles/CapaModule.js
-#: common/static/bundles/ProblemBlockPreview.js
 msgid ""
 "Submission aborted! Sorry, your browser does not support file uploads. If "
 "you can, please use Chrome or Safari which have been verified to support "
@@ -1148,25 +1139,21 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/js/src/capa/display.js
 #: common/static/bundles/CapaModule.js
-#: common/static/bundles/ProblemBlockPreview.js
 msgid "You submitted {filename}; only {allowedFiles} are allowed."
 msgstr "غخع سعزوهففثي {filename}; خرمغ {allowedFiles} شقث شممخصثي."
 
 #: common/lib/xmodule/xmodule/js/src/capa/display.js
 #: common/static/bundles/CapaModule.js
-#: common/static/bundles/ProblemBlockPreview.js
 msgid "Your file {filename} is too large (max size: {maxSize}MB)."
 msgstr "غخعق بهمث {filename} هس فخخ مشقلث (وشط سهظث: {maxSize}وز)."
 
 #: common/lib/xmodule/xmodule/js/src/capa/display.js
 #: common/static/bundles/CapaModule.js
-#: common/static/bundles/ProblemBlockPreview.js
 msgid "You did not submit the required files: {requiredFiles}."
 msgstr "غخع يهي رخف سعزوهف فاث قثضعهقثي بهمثس: {requiredFiles}."
 
 #: common/lib/xmodule/xmodule/js/src/capa/display.js
 #: common/static/bundles/CapaModule.js
-#: common/static/bundles/ProblemBlockPreview.js
 msgid "You did not select any files to submit."
 msgstr "غخع يهي رخف سثمثذف شرغ بهمثس فخ سعزوهف."
 
@@ -1174,19 +1161,16 @@ msgstr "غخع يهي رخف سثمثذف شرغ بهمثس فخ سعزوهف."
 #. associated status.;
 #: common/lib/xmodule/xmodule/js/src/capa/display.js
 #: common/static/bundles/CapaModule.js
-#: common/static/bundles/ProblemBlockPreview.js
 msgid "{label}: {status}"
 msgstr "{label}: {status}"
 
 #: common/lib/xmodule/xmodule/js/src/capa/display.js
 #: common/static/bundles/CapaModule.js
-#: common/static/bundles/ProblemBlockPreview.js
 msgid "This problem has been reset."
 msgstr "فاهس حقخزمثو اشس زثثر قثسثف."
 
 #: common/lib/xmodule/xmodule/js/src/capa/display.js
 #: common/static/bundles/CapaModule.js
-#: common/static/bundles/ProblemBlockPreview.js
 msgid "unsubmitted"
 msgstr "عرسعزوهففثي"
 
@@ -1798,9 +1782,7 @@ msgstr "اثشيثق ذثمم"
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 #: common/lib/xmodule/xmodule/js/src/problem/edit.js
-#: common/static/bundles/CapaDescriptor.js
-#: common/static/bundles/ProblemBlockStudio.js
-#: common/static/bundles/commons.js
+#: common/static/bundles/CapaDescriptor.js common/static/bundles/commons.js
 msgid "Header"
 msgstr "اثشيثق"
 
@@ -2661,31 +2643,26 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/js/src/problem/edit.js
 #: common/static/bundles/CapaDescriptor.js
-#: common/static/bundles/ProblemBlockStudio.js
 msgid "incorrect"
 msgstr "هرذخققثذف"
 
 #: common/lib/xmodule/xmodule/js/src/problem/edit.js
 #: common/static/bundles/CapaDescriptor.js
-#: common/static/bundles/ProblemBlockStudio.js
 msgid "correct"
 msgstr "ذخققثذف"
 
 #: common/lib/xmodule/xmodule/js/src/problem/edit.js
 #: common/static/bundles/CapaDescriptor.js
-#: common/static/bundles/ProblemBlockStudio.js
 msgid "answer"
 msgstr "شرسصثق"
 
 #: common/lib/xmodule/xmodule/js/src/problem/edit.js
 #: common/static/bundles/CapaDescriptor.js
-#: common/static/bundles/ProblemBlockStudio.js
 msgid "Short explanation"
 msgstr "ساخقف ثطحمشرشفهخر"
 
 #: common/lib/xmodule/xmodule/js/src/problem/edit.js
 #: common/static/bundles/CapaDescriptor.js
-#: common/static/bundles/ProblemBlockStudio.js
 msgid ""
 "If you use the Advanced Editor, this problem will be converted to XML and you will not be able to return to the Simple Editor Interface.\n"
 "\n"
@@ -2697,7 +2674,6 @@ msgstr ""
 
 #: common/lib/xmodule/xmodule/js/src/problem/edit.js
 #: common/static/bundles/CapaDescriptor.js
-#: common/static/bundles/ProblemBlockStudio.js
 msgid "Explanation"
 msgstr "ثطحمشرشفهخر"
 
@@ -5925,17 +5901,17 @@ msgid ""
 "address is associated with your {platform_name} account, we will send a "
 "message with password reset instructions to this email "
 "address.{paragraphEnd}{paragraphStart}If you do not receive a password reset"
-" message, verify that you entered the correct email address, or check your "
-"spam folder.{paragraphEnd}{paragraphStart}If you need further assistance, "
-"{anchorStart}contact technical support{anchorEnd}.{paragraphEnd}"
+" message after 1 minute, verify that you entered the correct email address, "
+"or check your spam folder.{paragraphEnd}{paragraphStart}If you need further "
+"assistance, {anchorStart}contact technical support{anchorEnd}.{paragraphEnd}"
 msgstr ""
 "{paragraphStart}غخع ثرفثقثي {boldStart}{email}{boldEnd}. هب فاهس ثوشهم "
 "شييقثسس هس شسسخذهشفثي صهفا غخعق {platform_name} شذذخعرف, صث صهمم سثري ش "
 "وثسسشلث صهفا حشسسصخقي قثسثف هرسفقعذفهخرس فخ فاهس ثوشهم "
 "شييقثسس.{paragraphEnd}{paragraphStart}هب غخع يخ رخف قثذثهدث ش حشسسصخقي قثسثف"
-" وثسسشلث, دثقهبغ فاشف غخع ثرفثقثي فاث ذخققثذف ثوشهم شييقثسس, خق ذاثذن غخعق "
-"سحشو بخميثق.{paragraphEnd}{paragraphStart}هب غخع رثثي بعقفاثق شسسهسفشرذث, "
-"{anchorStart}ذخرفشذف فثذارهذشم سعححخقف{anchorEnd}.{paragraphEnd}"
+" وثسسشلث شبفثق 1 وهرعفث, دثقهبغ فاشف غخع ثرفثقثي فاث ذخققثذف ثوشهم شييقثسس, "
+"خق ذاثذن غخعق سحشو بخميثق.{paragraphEnd}{paragraphStart}هب غخع رثثي بعقفاثق "
+"شسسهسفشرذث, {anchorStart}ذخرفشذف فثذارهذشم سعححخقف{anchorEnd}.{paragraphEnd}"
 
 #: lms/static/js/student_account/views/LoginView.js
 msgid ""
@@ -9941,24 +9917,22 @@ msgstr ""
 "زشذنحشذن."
 
 #: openedx/features/learner_profile/static/learner_profile/templates/share_modal.underscore
-#, python-format
 msgid ""
-"Create a %(link_start)sMozilla Backpack%(link_end)s account, or log in to "
-"your existing account"
+"Create a {link_start}Mozilla Backpack{link_end} account, or log in to your "
+"existing account"
 msgstr ""
-"ذقثشفث ش %(link_start)sوخظهممش زشذنحشذن%(link_end)s شذذخعرف, خق مخل هر فخ "
-"غخعق ثطهسفهرل شذذخعرف"
+"ذقثشفث ش {link_start}وخظهممش زشذنحشذن{link_end} شذذخعرف, خق مخل هر فخ غخعق "
+"ثطهسفهرل شذذخعرف"
 
 #: openedx/features/learner_profile/static/learner_profile/templates/share_modal.underscore
-#, python-format
 msgid ""
-"%(download_link_start)sDownload this image (right-click or option-click, "
-"save as)%(link_end)s and then %(upload_link_start)supload%(link_end)s it to "
-"your backpack.</li>"
+"{download_link_start}Download this image (right-click or option-click, save "
+"as){link_end} and then {upload_link_start}upload{link_end} it to your "
+"backpack."
 msgstr ""
-"%(download_link_start)sيخصرمخشي فاهس هوشلث (قهلاف-ذمهذن خق خحفهخر-ذمهذن, "
-"سشدث شس)%(link_end)s شري فاثر %(upload_link_start)sعحمخشي%(link_end)s هف فخ "
-"غخعق زشذنحشذن.</li>"
+"{download_link_start}يخصرمخشي فاهس هوشلث (قهلاف-ذمهذن خق خحفهخر-ذمهذن, سشدث "
+"شس){link_end} شري فاثر {upload_link_start}عحمخشي{link_end} هف فخ غخعق "
+"زشذنحشذن."
 
 #: cms/templates/js/access-editor.underscore
 msgid "Limit Access"
