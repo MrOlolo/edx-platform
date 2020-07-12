@@ -7,6 +7,7 @@ from django.conf import settings
 from django.conf.urls import url
 
 from .views import BlocksInCourseView, BlocksView
+import lms.djangoapps.course_api.blocks.views_history as history
 
 urlpatterns = [
     # This endpoint requires the usage_key for the starting block.
@@ -37,4 +38,11 @@ urlpatterns = [
         BlocksInCourseView.as_view(),
         name="blocks_in_course"
     ),
+
+    url(
+        r'^v1/course_history/',
+        history.BlocksInCourseView.as_view(),
+        name="course_history"
+    )
+
 ]
